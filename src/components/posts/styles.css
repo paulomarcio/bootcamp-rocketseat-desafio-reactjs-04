@@ -1,0 +1,70 @@
+section {
+  margin: 20px auto;
+  background-color: #fff;
+  width: 60%;
+  font-family: 'Roboto';
+}
+
+section div.posts {
+  padding: 20px 20px;
+}
+
+section div.posts div.profile {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+section div.posts div.text {
+  margin: 0 0 0 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cacaca;
+}
+
+section div.posts div.comments {
+  display: flex;
+  margin-top: 20px;
+}
+
+div.comments div.image img {
+  border-radius: 50%;
+}
+
+div.comments div.text {
+  background-color: #cacaca;
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 100%;
+}
+
+div.comments div.text p span {
+  font-weight: bold;
+  color: #000;
+}
+
+div.posts div.text p {
+  color: #5c5a5a;
+  font-size: 14px;
+}
+
+div.posts div.profile div.image {
+  margin: 15px 0 0 15px;
+}
+
+div.profile div.image img {
+  border-radius: 50%;
+}
+
+div.posts div.profile div.info {
+  margin: 15px 0 0 15px;
+}
+
+div.info p.name {
+  font-weight: 700;
+  font-size: 16px;
+  color: #353535;
+}
+
+div.info p.date {
+  font-size: 12px;
+  color: #cacaca;
+}

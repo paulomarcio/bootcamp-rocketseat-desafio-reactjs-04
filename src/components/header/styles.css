@@ -1,0 +1,12 @@
+header {
+  background-color: #4A90E2;
+  color: #fff;
+  display: flex;
+  padding: 10px 10px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+header h1 {
+  display: block;
+}
